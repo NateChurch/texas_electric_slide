@@ -1,0 +1,224 @@
+- provider: 4change
+  name: PowerMaxxSaver24
+  link: https://www.4changeenergy.com/viewpdf.aspx/?Docs/efl_pwsvmx24kad_c.pdf
+  charges:
+    - from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 11.099
+      cost_unit: cents
+    - from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.95
+      cost_unit: dollars
+    - from_kwh: 2000
+      to_kwh: 9999
+      type: monthly
+      cost: -100
+      cost_unit: dollars
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 3.7332
+      cost_unit: cents
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.39
+      cost_unit: dollars
+
+
+- provider: 4change
+  name: PowerMaxxSaver12
+  link: https://www.4changeenergy.com/viewpdf.aspx/?Docs/efl_pwsvmx12kab_c.pdf
+  charges:
+    - from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 11.799
+      cost_unit: cents
+    - from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.95
+      cost_unit: dollars
+    - from_kwh: 2000
+      to_kwh: 9999
+      type: monthly
+      cost: -100
+      cost_unit: dollars
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 3.7332
+      cost_unit: cents
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.39
+      cost_unit: dollars
+
+- provider: FrontierUltilities
+  name: PaverMax12
+  link: https://eflviewer.frontierutilities.com/eflviewer.aspx?lang=EN&prodcode=FSVRMX12&tdspcode=CNP
+  charges:
+    - from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 11.67
+      cost_unit: cents
+    - from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 35
+      cost_unit: dollars
+    - from_kwh: 2000
+      to_kwh: 9999
+      type: monthly
+      cost: -125
+      cost_unit: dollars
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 3.7332
+      cost_unit: cents
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.39
+      cost_unit: dollars
+
+- provider: FlagshipPower
+  name: Galleon2000-36
+  link: https://enroll.flagshippower.com/EmailHTML/efl.aspx?RateID=421&BrandID=1&PromoCodeID=132
+  charges:
+    - from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 17.19
+      cost_unit: cents
+    - from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 0
+      cost_unit: dollars
+    - from_kwh: 2000
+      to_kwh: 9999
+      type: monthly
+      cost: -200
+      cost_unit: dollars
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 3.7332
+      cost_unit: cents
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.39
+      cost_unit: dollars
+
+- provider: GexaEnergy
+  name: EcoSaverPremium12
+  link: https://eflviewer.gexaenergy.com/eflviewer.aspx?lang=EN&prodcode=GXAECOSVRPM12&tdspcode=CNP
+  charges:
+    - from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 11.77
+      cost_unit: cents
+    - from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 35
+      cost_unit: dollars
+    - from_kwh: 2000
+      to_kwh: 9999
+      type: monthly
+      cost: -125
+      cost_unit: dollars
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 3.7332
+      cost_unit: cents
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.39
+      cost_unit: dollars
+
+- provider: 4change
+  name: OneRate12
+  link: https://www.4changeenergy.com/viewpdf.aspx/?Docs/efl_onerta12kac_c.pdf
+  charges:
+    - from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 9.2722
+      cost_unit: cents
+    - from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.95
+      cost_unit: dollars
+    - from_kwh: 2000
+      to_kwh: 9999
+      type: monthly
+      cost: 0
+      cost_unit: dollars
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 3.7332
+      cost_unit: cents
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.39
+      cost_unit: dollars
+
+- provider: 4change
+  name: OneRate24
+  link: https://www.4changeenergy.com/viewpdf.aspx/?Docs/efl_onerta24kac_c.pdf
+  charges:
+    - from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 9.2722
+      cost_unit: cents
+    - from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.95
+      cost_unit: dollars
+    - from_kwh: 2000
+      to_kwh: 9999
+      type: monthly
+      cost: 0
+      cost_unit: dollars
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 3.7332
+      cost_unit: cents
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.39
+      cost_unit: dollars

@@ -1,0 +1,463 @@
+- provider: Frontier
+  name: SuperValue24
+  link: https://eflviewer.frontierutilities.com/eflviewer.aspx?lang=EN&prodcode=FSV24&tdspcode=CNP
+  charges:
+    - from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 18.53
+      cost_unit: cents
+    - from_kwh: 1000
+      to_kwh: 2000
+      type: monthly
+      cost: -100
+      cost_unit: dollars
+    - from_kwh: 2000
+      to_kwh: 9999
+      type: monthly
+      cost: 100
+      cost_unit: dollars
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 4.9454
+      cost_unit: cents
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.39
+      cost_unit: dollars
+
+- provider: 4change
+  name: OneRate24
+  link: https://www.4changeenergy.com/viewpdf.aspx/?Docs/efl_onerta24jab_c.pdf
+  charges:
+    - from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 13.060
+      cost_unit: cents
+    - from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.95
+      cost_unit: dollars
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 4.9454
+      cost_unit: cents
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.39
+      cost_unit: dollars
+
+- provider: 4change
+  name: MaxxSaverSelect24
+  link: https://www.4changeenergy.com/viewpdf.aspx/?Docs/efl_onerta24jab_c.pdf
+  charges:
+    - from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 18.76
+      cost_unit: cents
+    - from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 0
+      cost_unit: dollars
+    - from_kwh: 1000
+      to_kwh: 9999
+      type: monthly
+      cost: -100
+      cost_unit: dollars
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 4.9454
+      cost_unit: cents
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.39
+      cost_unit: dollars
+
+- provider: 4change
+  name: SmartThermostat24
+  link: https://www.4changeenergy.com/viewpdf.aspx/?Docs/efl_onerta24jab_c.pdf
+  charges:
+    - from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 16.17
+      cost_unit: cents
+    - from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 9.95
+      cost_unit: dollars
+    - from_kwh: 1000
+      to_kwh: 9999
+      type: monthly
+      cost: -50
+      cost_unit: dollars
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 4.9454
+      cost_unit: cents
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.39
+      cost_unit: dollars
+
+- provider: Constellation
+  name: 36month
+  link: https://api.saveonenergy.cloud/document/94f238e0-1808-11e8-b121-84f43d51df6a?versionNum=49049
+  charges:
+    - from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 15.00
+      cost_unit: cents
+    - from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 0
+      cost_unit: dollars
+    - from_kwh: 1000
+      to_kwh: 9999
+      type: monthly
+      cost: -35
+      cost_unit: dollars
+    - from_kwh: 2000
+      to_kwh: 9999
+      type: monthly
+      cost: -15
+      cost_unit: dollars
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 4.9454
+      cost_unit: cents
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.39
+      cost_unit: dollars
+
+
+- provider: Constellation
+  name: 36monthPlusACandDiag
+  link: https://api.saveonenergy.cloud/document/94f238e0-1808-11e8-b121-84f43d51df6a?versionNum=49049
+  charges:
+    - from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 15.00
+      cost_unit: cents
+    - from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 0
+      cost_unit: dollars
+    - from_kwh: 1000
+      to_kwh: 9999
+      type: monthly
+      cost: -35
+      cost_unit: dollars
+    - from_kwh: 2000
+      to_kwh: 9999
+      type: monthly
+      cost: -15
+      cost_unit: dollars
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 4.9454
+      cost_unit: cents
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.39
+      cost_unit: dollars
+
+- provider: Constellation
+  name: 36monthPlusACandDiagandTuneup
+  link: https://api.saveonenergy.cloud/document/94f238e0-1808-11e8-b121-84f43d51df6a?versionNum=49049
+  charges:
+    - from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 16.00
+      cost_unit: cents
+    - from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 0
+      cost_unit: dollars
+    - from_kwh: 1000
+      to_kwh: 9999
+      type: monthly
+      cost: -35
+      cost_unit: dollars
+    - from_kwh: 2000
+      to_kwh: 9999
+      type: monthly
+      cost: -15
+      cost_unit: dollars
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 4.9454
+      cost_unit: cents
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.39
+      cost_unit: dollars
+
+- provider: Express
+  name: Flash24
+  link: https://api.saveonenergy.cloud/document/94f238e0-1808-11e8-b121-84f43d51df6a?versionNum=49049
+  charges:
+    - from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 18.66
+      cost_unit: cents
+    - from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 0
+      cost_unit: dollars
+    - from_kwh: 1000
+      to_kwh: 9999
+      type: monthly
+      cost: -100
+      cost_unit: dollars
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 4.9454
+      cost_unit: cents
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.39
+      cost_unit: dollars
+
+
+- provider: TriEagle
+  name: RealSaver36
+  link: https://api.saveonenergy.cloud/document/94f238e0-1808-11e8-b121-84f43d51df6a?versionNum=49049
+  charges:
+    - from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 17.2
+      cost_unit: cents
+    - from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.95
+      cost_unit: dollars
+    - from_kwh: 2000
+      to_kwh: 9999
+      type: monthly
+      cost: -50
+      cost_unit: dollars
+
+- provider: TriEagle
+  name: BronzeEagle24
+  link: https://api.saveonenergy.cloud/document/94f238e0-1808-11e8-b121-84f43d51df6a?versionNum=49049
+  charges:
+    - from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 16.7
+      cost_unit: cents
+    - from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.95
+      cost_unit: dollars
+
+- provider: TXU
+  name: SmartEdge12
+  link:
+  charges:
+    - from_kwh: 0
+      to_kwh: 1200
+      type: per_kwh
+      cost: 13.1
+      cost_unit: cents
+    - from_kwh: 1200
+      to_kwh: 9999
+      type: per_kwh
+      cost: 21.4
+      cost_unit: cents
+    - from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 9.95
+      cost_unit: dollars
+    - from_kwh: 800
+      to_kwh: 9999
+      type: monthly
+      cost: -30
+      cost_unit: dollars
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 4.9454
+      cost_unit: cents
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.39
+      cost_unit: dollars
+
+- provider: TXU
+  name: SmartDeal12
+  link:
+  charges:
+    - from_kwh: 0
+      to_kwh: 1200
+      type: per_kwh
+      cost: 15.4
+      cost_unit: cents
+    - from_kwh: 1200
+      to_kwh: 2000
+      type: per_kwh
+      cost: 7.7
+      cost_unit: cents
+    - from_kwh: 2000
+      to_kwh: 9999
+      type: per_kwh
+      cost: 16.2
+      cost_unit: cents
+    - from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 9.95
+      cost_unit: dollars
+    - from_kwh: 1200
+      to_kwh: 9999
+      type: monthly
+      cost: -30
+      cost_unit: dollars
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 4.9454
+      cost_unit: cents
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.39
+      cost_unit: dollars
+
+
+
+- provider: Gexa
+  name: SuperbSaver24
+  link:
+  charges:
+    - from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 14.92
+      cost_unit: cents
+    - from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 35.00
+      cost_unit: dollars
+    - from_kwh: 1500
+      to_kwh: 2000
+      type: monthly
+      cost: -50
+      cost_unit: dollars
+    - from_kwh: 2000
+      to_kwh: 2500
+      type: monthly
+      cost: -50
+      cost_unit: dollars
+    - from_kwh: 2500
+      to_kwh: 9999
+      type: monthly
+      cost: 0
+      cost_unit: dollars
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 4.9454
+      cost_unit: cents
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.39
+      cost_unit: dollars
+
+
+- provider: Reliant
+  name: Current
+  link:
+  charges:
+    - from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 14.3945
+      cost_unit: cents
+    - from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 0.0
+      cost_unit: dollars
+    - from_kwh: 0
+      to_kwh: 800
+      type: monthly
+      cost: 9.95
+      cost_unit: dollars
+    - from_kwh: 800
+      to_kwh: 999
+      type: monthly
+      cost: -9.95
+      cost_unit: dollars
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: per_kwh
+      cost: 4.9454
+      cost_unit: cents
+    - name: TDU
+      from_kwh: 0
+      to_kwh: 9999
+      type: monthly
+      cost: 4.39
+      cost_unit: dollars
