@@ -63,8 +63,8 @@
       cost: 4.39
       cost_unit: dollars
 
-- provider: FrontierUltilities
-  name: PaverMax12
+- provider: FrontierUtilities
+  name: SaverMax12
   link: https://eflviewer.frontierutilities.com/eflviewer.aspx?lang=EN&prodcode=FSVRMX12&tdspcode=CNP
   charges:
     - from_kwh: 0

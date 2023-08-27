@@ -1,17 +1,20 @@
 # Electric Slide
 
 ## Summary
-This program will calculate your total electric bill using several providers when given multiple months of usage data. I whipped it up and use it periodically. We make no claims to the accuracy of the calculations, but ya know it worked on my machine.
+This program will calculate your total Texas electric bill to evaluate several ERCOT providers when given multiple months of my actual usage data. I whipped it up and use it periodically. We make no claims to the accuracy of the calculations, but ya know it worked on my machine. 
 
 ## Requirements
 Python 3.6 or higher, I last ran it on 3.10. I have not tested it on lower versions.
 
 ## Data
-I have included my data so try not to laugh to hard at my bills. I use a lot of power. 
+I have included my own data so try not to laugh to hard at my bills. I use a lot of power. 
 
 ### Energy_Prices.Yaml
-This file contains the details of the various plans and should be updated or adjusted based on the plans you are evaluating. A sample of the format is below. I use the "yearlyUsageData_unittest.csv" for creating and updating the prices as sites like **comparepower.com** show 500kwh, 1000kwh, and 2000kwh usage by default. I then run the script after I add each new power plan to the yaml file to make sure I get the correct answers in the pbi_output.csv file. I have included two other usages which correspond to my average and max usage which I then type in to the custom usage to get the custom cost back. 
+This file contains the details of the various plans and should be updated or adjusted based on the plans you are evaluating. I also have no idea how the plans vary by location, since I didn't do that evaluation. A sample of the format is below. This files in the data folder are the actual values for a few plans at the time of my last run. I tired to include the Fact Sheets where I could. 
 
+I use the "yearlyUsageData_unittest.csv" for creating and updating the prices as sites like **comparepower.com** show 500kwh, 1000kwh, and 2000kwh usage by default. I then run the script after I add each new power plan to the yaml file to make sure I get the correct answers in the pbi_output.csv file. I have included two other usages which correspond to my average and max usage which I then type in to the custom usage to get the custom cost back. I might document this in the future, but I am not sure how useful it is.
+
+#### Sample Plan
 ```yaml
 - provider: Express
   name: Freeway12
@@ -42,7 +45,7 @@ This file contains the details of the various plans and should be updated or adj
       cost_unit: dollars
 ```
 
-#### Example calculation
+#### Example calculation based on sample plan
 The calculation is made based on the energy usage inputted to the function *determine_plan_cost*. Monthly costs are calculated if the range is met at all and per_kwh costs are how much of the range is met. 
 
 Using the sample with a usage of 1100:
@@ -91,6 +94,6 @@ If you choose not to clone the repo to *C:\repos\github\texas_electric_slide* li
 Step 1. Edit the query
 ![img.png](./docs/powerbi_editquery.png)
 
-Step 2. Change the path to the your pbi_output.csv file
+Step 2. Change the path to your pbi_output.csv file
 ![img.png](./docs/powerbi_change_source.png)
 
