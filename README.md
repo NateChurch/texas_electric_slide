@@ -1,7 +1,7 @@
 # Electric Slide
 
 ## Summary
-This program will calculate your total Texas electric bill to evaluate several ERCOT providers when given multiple months of my actual usage data. I whipped it up and use it periodically. We make no claims to the accuracy of the calculations, but ya know it worked on my machine. 
+This program will calculate your total Texas electric bill to evaluate several ERCOT providers when given multiple months of your actual usage data. I whipped it up and use it periodically. We make no claims to the accuracy of the calculations, but ya know it worked on my machine. 
 
 ## Requirements
 Python 3.6 or higher, I last ran it on 3.10. I have not tested it on lower versions.
